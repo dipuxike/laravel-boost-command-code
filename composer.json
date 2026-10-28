@@ -1,0 +1,29 @@
+{
+    "name": "dipuxike/laravel-boost-command-code",
+    "description": "Command Code agent for Laravel Boost.",
+    "keywords": [
+        "laravel",
+        "boost",
+        "ai",
+        "command-code"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "laravel/boost": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dipuxike\\LaravelBoostCommandCode\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dipuxike\\LaravelBoostCommandCode\\CommandCodeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
